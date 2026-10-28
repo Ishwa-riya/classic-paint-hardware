@@ -1,10 +1,10 @@
 // Classic Paints And Hardware - Interactive Web Application Logic
 // Theme: Bright, Vibrant, Premium Paint-Shop Theme
-// Proprietor: Anees | Vakkom, Anjuthengu, Trivandrum
+// Proprietor: MUHAMMED ANEES SALIM | Vakkom, Anjuthengu, Trivandrum
 
 const STORE_CONFIG = {
   name: "Classic Paints And Hardware",
-  proprietor: "Anees",
+  proprietor: "MUHAMMED ANEES SALIM",
   phonePrimary: "+919526361145",
   phoneDisplayPrimary: "+91 95263 61145",
   phoneSecondary: "+919567111223",
@@ -344,7 +344,7 @@ function initProductsCatalog() {
         </span>
       `).join("");
 
-      const inquiryText = encodeURIComponent(`Hello Anees, I am inquiring about *${p.title}*. Do you have stock in Vakkom?`);
+      const inquiryText = encodeURIComponent(`Hello MUHAMMED ANEES SALIM, I am inquiring about *${p.title}*. Do you have stock in Vakkom?`);
 
       return `
         <div class="bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 overflow-hidden flex flex-col justify-between group">

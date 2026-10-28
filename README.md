@@ -29,7 +29,7 @@ Per your request, the logo has been processed into crisp, high-resolution PNG fo
 ## 🏢 Business & Contact Details
 
 - **Business Name:** Classic Paints And Hardware
-- **Proprietor / Contact Person:** Anees
+- **Proprietor / Contact Person:** MUHAMMED ANEES SALIM
 - **Phone Hotlines:**
   - `+91 95263 61145` (Primary / WhatsApp)
   - `+91 95671 11223` (Secondary)
@@ -67,12 +67,12 @@ Per your request, the logo has been processed into crisp, high-resolution PNG fo
    - Wholesale trade supply banner for painting contractors and builders
 
 4. **Services & Solutions View:**
-   - 6 Core Services: Computerized Color Tinting (2,000+ shades), Waterproofing & Damp Diagnostics, Contractor Wholesale Supply, On-Site Estimation by Anees, Precision Hardware & Power Tool Fleet, Fast Site Doorstep Delivery
+   - 6 Core Services: Computerized Color Tinting (2,000+ shades), Waterproofing & Damp Diagnostics, Contractor Wholesale Supply, On-Site Estimation by MUHAMMED ANEES SALIM, Precision Hardware & Power Tool Fleet, Fast Site Doorstep Delivery
    - 4-step process guide (Consultation → Selection → Dealer Quote → Delivery)
 
 5. **About Us View:**
    - Brand heritage in Vakkom & Anjuthengu
-   - Proprietor spotlight on Anees and zero-counterfeit guarantee
+   - Proprietor spotlight on MUHAMMED ANEES SALIM and zero-counterfeit guarantee
    - Verified Justdial 5.0 ★ customer review cards
 
 6. **Contact View:**
