@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="100%" height="100%" class="drop-shadow-2xl">
+  <defs>
+    <!-- Metallic Gold Outer Gradient -->
+    <linearGradient id="goldRim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b45309" />
+      <stop offset="25%" stop-color="#f59e0b" />
+      <stop offset="50%" stop-color="#fef08a" />
+      <stop offset="75%" stop-color="#eab308" />
+      <stop offset="100%" stop-color="#78350f" />
+    </linearGradient>
+
+    <!-- Metallic Gold Center Accents -->
+    <linearGradient id="goldAccents" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="40%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+
+    <!-- Deep Navy Disc Gradient -->
+    <radialGradient id="navyCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="70%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </radialGradient>
+
+    <!-- Subtle Bevel Shadow -->
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.4" />
+    </filter>
+
+    <!-- Top Text Path -->
+    <path id="topTextArc" d="M 32, 120 A 88,88 0 0,1 208, 120" fill="none" />
+    <!-- Bottom Text Path -->
+    <path id="bottomTextArc" d="M 208, 120 A 88,88 0 0,1 32, 120" fill="none" />
+  </defs>
+
+  <!-- Outer Serrated / Coin-Edge Ring -->
+  <circle cx="120" cy="120" r="116" fill="url(#goldRim)" filter="url(#softGlow)" />
+  <circle cx="120" cy="120" r="111" fill="#0f172a" />
+  
+  <!-- Outer Gold Band -->
+  <circle cx="120" cy="120" r="108" fill="none" stroke="url(#goldRim)" stroke-width="2.5" />
+  <circle cx="120" cy="120" r="105" fill="#131c2e" />
+
+  <!-- Outer Ring Text: AUTHORIZED STOCKIST & DEALER • KERALA QUALITY ASSURED -->
+  <text font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="9" font-weight="800" fill="url(#goldAccents)" letter-spacing="2.6">
+    <textPath href="#topTextArc" startOffset="50%" text-anchor="middle">
+      AUTHORIZED STOCKIST &amp; DEALER
+    </textPath>
+  </text>
+
+  <text font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="9" font-weight="800" fill="url(#goldAccents)" letter-spacing="2.8">
+    <textPath href="#bottomTextArc" startOffset="50%" text-anchor="middle">
+      • KERALA QUALITY ASSURED •
+    </textPath>
+  </text>
+
+  <!-- Inner Beaded Ring -->
+  <circle cx="120" cy="120" r="78" fill="none" stroke="url(#goldRim)" stroke-width="2.5" stroke-dasharray="3,2.5" />
+
+  <!-- Deep Navy Core Disc -->
+  <circle cx="120" cy="120" r="74" fill="url(#navyCore)" stroke="url(#goldRim)" stroke-width="3" />
+
+  <!-- Center Icons: Architectural Paint Roller Crossed with Hardware Caliper -->
+  <g transform="translate(120, 114) scale(0.95)" filter="url(#softGlow)">
+    
+    <!-- Crossed Precision Caliper (Angle: -35deg) -->
+    <g transform="rotate(-32)">
+      <!-- Caliper Main Beam -->
+      <rect x="-4" y="-48" width="8" height="96" rx="2" fill="url(#goldAccents)" stroke="#78350f" stroke-width="1" />
+      <!-- Measurement Ticks -->
+      <line x1="-3" y1="-35" x2="1" y2="-35" stroke="#0f172a" stroke-width="1" />
+      <line x1="-3" y1="-25" x2="2" y2="-25" stroke="#0f172a" stroke-width="1" />
+      <line x1="-3" y1="-15" x2="1" y2="-15" stroke="#0f172a" stroke-width="1" />
+      <line x1="-3" y1="-5" x2="2" y2="-5" stroke="#0f172a" stroke-width="1" />
+      <line x1="-3" y1="5" x2="1" y2="5" stroke="#0f172a" stroke-width="1" />
+      <line x1="-3" y1="15" x2="2" y2="15" stroke="#0f172a" stroke-width="1" />
+      <line x1="-3" y1="25" x2="1" y2="25" stroke="#0f172a" stroke-width="1" />
+      <!-- Fixed Main Jaw (Top) -->
+      <path d="M -4,-48 L -24,-48 Q -30,-44 -26,-36 L -4,-28 Z" fill="url(#goldAccents)" stroke="#78350f" stroke-width="1" />
+      <!-- Sliding Vernier Jaw -->
+      <path d="M -4,-18 L -22,-18 Q -28,-14 -24,-8 L -4,-4 Z" fill="#fef08a" stroke="#78350f" stroke-width="1" />
+      <rect x="-6" y="-20" width="12" height="18" rx="2" fill="#d97706" />
+      <!-- Internal Small Jaws (Right) -->
+      <path d="M 4,-48 L 16,-48 L 4,-38 Z" fill="url(#goldAccents)" stroke="#78350f" stroke-width="1" />
+      <path d="M 4,-20 L 14,-20 L 4,-12 Z" fill="#fef08a" stroke="#78350f" stroke-width="1" />
+      <!-- Depth Rod (Bottom) -->
+      <line x1="0" y1="48" x2="0" y2="58" stroke="url(#goldAccents)" stroke-width="2.5" />
+    </g>
+
+    <!-- Crossed Architectural Paint Roller (Angle: +32deg) -->
+    <g transform="rotate(32)">
+      <!-- Handle -->
+      <rect x="-4.5" y="16" width="9" height="34" rx="4" fill="#0f172a" stroke="url(#goldRim)" stroke-width="1.5" />
+      <!-- Metallic Steel Rod Stem -->
+      <path d="M 0,16 L 0,-2 L -18,-2 L -18,-28 L -4,-28" fill="none" stroke="url(#goldRim)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+      <!-- Roller Cylinder -->
+      <rect x="-14" y="-46" width="28" height="16" rx="4" fill="url(#goldAccents)" stroke="#78350f" stroke-width="1.2" />
+      <!-- Roller Texture Stripes -->
+      <line x1="-8" y1="-44" x2="-8" y2="-32" stroke="#fef08a" stroke-width="2" stroke-linecap="round" />
+      <line x1="0" y1="-44" x2="0" y2="-32" stroke="#d97706" stroke-width="2" stroke-linecap="round" />
+      <line x1="8" y1="-44" x2="8" y2="-32" stroke="#fef08a" stroke-width="2" stroke-linecap="round" />
+      <!-- End Caps -->
+      <circle cx="-14" cy="-38" r="3" fill="#0f172a" stroke="url(#goldRim)" stroke-width="1" />
+      <circle cx="14" cy="-38" r="3" fill="#0f172a" stroke="url(#goldRim)" stroke-width="1" />
+    </g>
+
+    <!-- Center Intersecting Gold Shield Pip -->
+    <circle cx="0" cy="0" r="7" fill="url(#goldAccents)" stroke="#0f172a" stroke-width="2" />
+    <circle cx="0" cy="0" r="3" fill="#0f172a" />
+  </g>
+
+  <!-- 5 Authentic Stars at Bottom of Inner Disc -->
+  <g fill="url(#goldAccents)">
+    <polygon points="98,172 100,166 103,172 96,168 104,168" />
+    <polygon points="108,174 110,168 113,174 106,170 114,170" />
+    <polygon points="120,175 122,168 125,175 117,171 127,171" transform="scale(1.15) translate(-16, -26)" />
+    <polygon points="132,174 134,168 137,174 130,170 138,170" />
+    <polygon points="142,172 144,166 147,172 140,168 148,168" />
+  </g>
+
+</svg>
